@@ -37,7 +37,7 @@ if(isset($_POST['submit'])){
         $row = mysql_fetch_array($sql); 
         session_start(); 
         $_SESSION['username'] = $row['username']; 
-        $_SESSION['fname'] = $row['first_name']; 
+        $_SESSION['firstname'] = $row['first_name']; 
         $_SESSION['lname'] = $row['last_name']; 
         $_SESSION['logged'] = TRUE; 
         header("Location: users_page.php"); // Modify to go to the page you would like 
