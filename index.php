@@ -56,7 +56,7 @@ users_page.php
 <?php 
 session_start(); 
 if(!$_SESSION['logged']){ 
-    header("Location: login_page.php"); 
+    header("Location: login_page2.php"); 
     exit; 
 } 
 echo 'Hey there, '.$_SESSION['username']; 
