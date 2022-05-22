@@ -10,12 +10,6 @@ verify.php
 <?php 
 if(isset($_POST['submit'])){ 
 
-    //////////////////////////////
-    //                          //
-    //      REDACTED CREDS      //
-    //                          //
-    //////////////////////////////
-
     $dbHost = "xxx";                           //Location Of Database usually its localhost 
     $dbUser = "xxx";                           //Database User Name 
     $dbPass = "xxx";                           //Database Password 
