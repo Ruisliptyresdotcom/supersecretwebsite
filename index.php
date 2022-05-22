@@ -9,10 +9,17 @@ verify.php
 
 <?php 
 if(isset($_POST['submit'])){ 
-    $dbHost = "174.87.201.22";                           //Location Of Database usually its localhost 
-    $dbUser = "admin";                                   //Database User Name 
-    $dbPass = "psp{d86c9aeffb7dd27b8d31cbc4f3e4f24b}";   //Database Password 
-    $dbDatabase = "users";                               //Database Name 
+
+    //////////////////////////////
+    //                          //
+    //      REDACTED CREDS      //
+    //                          //
+    //////////////////////////////
+
+    $dbHost = "xxx";                           //Location Of Database usually its localhost 
+    $dbUser = "xxx";                           //Database User Name 
+    $dbPass = "xxx";                           //Database Password 
+    $dbDatabase = "xxx";                       //Database Name 
      
     $db = mysql_connect($dbHost,$dbUser,$dbPass)or die("Error connecting to database."); 
     //Connect to the databasse 
